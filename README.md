@@ -11,7 +11,8 @@ This repository contains assignments for a Software Quality Assurance and Testin
 ├── test_tc-002.py            # Test for explicit wait
 ├── test_tc-003.py            # Test for drag and drop
 ├── test_tc-004.py            # Test for hover
-├── test_tc-005.py            # Test for dropdown and selection
+├── test_tc-005.py            # Test for dropdown by xpath
+├── test_tc-006.py            # Test for dropdown by text
 ├── conftest.py               # configuring pytest
 ├── report.html               # test report
 ├── README.md                 # About the project
@@ -46,7 +47,7 @@ Each module can be run independently:
 
 ```bash
 # To run test
-python3 test_tc-0xx.py
+ pytest -v --html=report.html --self-contained-html
 ```
 ## Author
 - Amangeldykyzy Damilya | SE-2327
