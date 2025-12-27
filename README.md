@@ -10,7 +10,7 @@ This repository contains assignments for a Software Quality Assurance and Testin
 ├── tc-001.py                 # Test for implicit wait
 ├── tc-002.py                 # Test for explicit wait
 ├── requirements.txt          # Python dependencies
-└── venv/                     # Python virtual environment
+└── venv/                     # Python virtual environment https://the-internet.herokuapp.com/drag_and_drop
 ```
 
 ## Quick Start
