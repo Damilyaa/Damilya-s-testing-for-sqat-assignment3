@@ -7,10 +7,16 @@ This repository contains assignments for a Software Quality Assurance and Testin
 
 ```
 .
-├── tc-001.py                 # Test for implicit wait
-├── tc-002.py                 # Test for explicit wait
+├── test_tc-001.py            # Test for implicit wait
+├── test_tc-002.py            # Test for explicit wait
+├── test_tc-003.py            # Test for drag and drop
+├── test_tc-004.py            # Test for hover
+├── test_tc-005.py            # Test for dropdown and selection
+├── conftest.py               # configuring pytest
+├── report.html               # test report
+├── README.md                 # About the project
 ├── requirements.txt          # Python dependencies
-└── venv/                     # Python virtual environment https://the-internet.herokuapp.com/drag_and_drop
+└── venv/                     # Python virtual environment
 ```
 
 ## Quick Start
