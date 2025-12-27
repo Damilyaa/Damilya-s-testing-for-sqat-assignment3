@@ -46,7 +46,7 @@ Each module can be run independently:
 
 ```bash
 # To run test
-python3 tc-0xx.py
+python3 test_tc-0xx.py
 ```
 ## Author
 - Amangeldykyzy Damilya | SE-2327
